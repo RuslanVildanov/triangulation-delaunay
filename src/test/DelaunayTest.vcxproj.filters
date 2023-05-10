@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\work\dz-systems\src\test\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\dz-systems\src\test\delaunay_service_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\dz-systems\src\test\triangle_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\dz-systems\src\test\triangulation_cache_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\work\dz-systems\src\test\utils_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\work\dz-systems\src\test\delaunay_service_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\work\dz-systems\src\test\test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\work\dz-systems\src\test\triangle_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\work\dz-systems\src\test\triangulation_cache_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\work\dz-systems\src\test\utils_test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\work\dz-systems\src\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\work\dz-systems\src\delaunay\DelaunayLibrary.dir\$(Configuration)\delaunay_factory.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\work\dz-systems\src\delaunay\DelaunayLibrary.dir\$(Configuration)\delaunay_service.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\work\dz-systems\src\delaunay\DelaunayLibrary.dir\$(Configuration)\triangle.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\work\dz-systems\src\delaunay\DelaunayLibrary.dir\$(Configuration)\triangulation_cache.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\work\dz-systems\src\delaunay\DelaunayLibrary.dir\$(Configuration)\utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E9ED52DB-C7BD-371E-9551-AFE628EF5CC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{C6F4D1C2-981F-3FD1-81ED-DF7E320604DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C47D7FFB-12B2-3595-A330-6743B8F95CD2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

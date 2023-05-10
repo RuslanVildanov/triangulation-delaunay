@@ -1,0 +1,1 @@
+bin\DelaunayTriangulation.exe -i data\sphere-nodes.xyz -o sphere-nodes.output
