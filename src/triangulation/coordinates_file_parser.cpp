@@ -1,7 +1,7 @@
 #include "coordinates_file_parser.h"
 #include "vertex_3d.h"
-#include "delaunay/triangle.h"
-#include "delaunay/vertex_2d.h"
+#include <delaunay/triangle.h>
+#include <delaunay/vertex_2d.h>
 
 #include <iostream>
 #include <fstream>

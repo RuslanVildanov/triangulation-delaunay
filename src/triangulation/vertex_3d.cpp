@@ -1,6 +1,6 @@
 #include "vertex_3d.h"
 
-#include "delaunay/vertex_2d.h"
+#include <delaunay/vertex_2d.h>
 
 
 std::list<std::shared_ptr<delaunay::Vertex2D> > projectVertex3D(

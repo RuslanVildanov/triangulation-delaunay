@@ -4,6 +4,7 @@
 #include <memory>
 #include <list>
 
+
 namespace delaunay
 {
 	struct Vertex2D;

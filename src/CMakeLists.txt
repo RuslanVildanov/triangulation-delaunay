@@ -18,15 +18,17 @@ endfunction()
 
 add_executable(${APP_TARGET} main.cpp)
 
+include_directories(.)
+
 target_add_sources(${APP_TARGET}
-        coordinates_file_parser.cpp
-        vertex_3d.cpp)
+        )
 
 target_add_headers(${APP_TARGET}
-        coordinates_file_parser.h
-        vertex_3d.h)
+        )
 
 add_subdirectory(delaunay)
 add_subdirectory(test)
+add_subdirectory(triangulation)
 
 target_link_libraries(${APP_TARGET} LINK_PRIVATE DelaunayLibrary)
+target_link_libraries(${APP_TARGET} LINK_PRIVATE TriangulationLibrary)
