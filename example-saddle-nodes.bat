@@ -1,1 +1,1 @@
-bin\DelaunayTriangulation.exe -i data\saddle-nodes.xyz -o saddle-nodes.output
+bin\DelaunayTriangulation.exe -i data\saddle-mesh\saddle-nodes.xyz -o saddle-nodes.output
