@@ -77,12 +77,12 @@ int main(int argc, char* argv[])
 	}
 
 	std::cout << "Loading the input file..." << std::endl;
-	CoordinatesFileParser coordinatesParser;
+	triangulation::CoordinatesFileParser coordinatesParser;
 	if (!coordinatesParser.loadFile(inputFileName)) {
 		std::cout << "There is an error when loading input file. File can not be processed." << std::endl;
 		return -2;
 	}
-	std::list<Vertex3D> coordinates = coordinatesParser.coordinates();
+	std::list<triangulation::Vertex3D> coordinates = coordinatesParser.coordinates();
 	std::cout << "Loaded number of coordinates: " << coordinates.size() << std::endl << std::flush;
 
 	std::cout << "Building triangulation..." << std::endl;
